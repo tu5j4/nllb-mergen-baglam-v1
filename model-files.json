@@ -1,0 +1,48 @@
+{
+  "model": "nllb-mergen-baglam-v1",
+  "version": "1.0.0",
+  "base_model": "facebook/nllb-200-distilled-1.3B",
+  "license": "cc-by-nc-4.0",
+  "files": [
+    {
+      "path": "adapter-masked/adapter_config.json",
+      "bytes": 1193,
+      "sha256": "47787742ee2398c5c1eff45203791b52e0c7f17edc13537e6c7b34b7d038e2de"
+    },
+    {
+      "path": "adapter-masked/adapter_model.safetensors",
+      "bytes": 94479552,
+      "sha256": "bea8311ac9d21c7f19491d2fb860ed8eb2853f3b93fe463aadba9ec14703a325"
+    },
+    {
+      "path": "adapter-masked/README.md",
+      "bytes": 559,
+      "sha256": "8d1e394c097ccf9a6f507348fc8709dc409af783989760bd57242378778ba9ae"
+    },
+    {
+      "path": "base-bf16/config.json",
+      "bytes": 813,
+      "sha256": "c14f245a49bde459243a2dfe668d58eab5ff5b0b284eb9a4797fb8b465487130"
+    },
+    {
+      "path": "base-bf16/generation_config.json",
+      "bytes": 193,
+      "sha256": "64e8f3b936cf0fe45587b281fe09e42515ab38a98c7c27c6b29c5b5d3a4297e5"
+    },
+    {
+      "path": "base-bf16/model.safetensors",
+      "bytes": 2741397600,
+      "sha256": "219867a2cb585ac7b66f1bf28ba7692474d7626ff4779404e5837afc190dc34b"
+    },
+    {
+      "path": "base-bf16/tokenizer.json",
+      "bytes": 32240136,
+      "sha256": "b3be18cc91c94d4a1d83731ace4dac0b90a7db024edecdeb9fe7d19ec01ce901"
+    },
+    {
+      "path": "base-bf16/tokenizer_config.json",
+      "bytes": 3894,
+      "sha256": "65ee987575afed3843758bb81cae7dfb30c1c7ce62e55cfa75c51d8d66812b7c"
+    }
+  ]
+}

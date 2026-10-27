@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "support": {
+    "name": "nllb-mergen-baglam-v1-support.zip",
+    "bytes": 5805808,
+    "sha256": "a8e3e51d76ea1b4726375acf5487df61c9ed999be0f4cf63e9fb928e72ed58d6"
+  },
+  "weights": [
+    {
+      "path": "base-bf16/model.safetensors",
+      "bytes": 2741397600,
+      "sha256": "219867a2cb585ac7b66f1bf28ba7692474d7626ff4779404e5837afc190dc34b",
+      "archive": "nllb-mergen-baglam-v1-base.xz",
+      "archive_bytes": 1870070044,
+      "archive_sha256": "c0c9e5522b300ba006a0dafcfb575e7c5af72a9d2021bebfe70318c9dd1b90d6",
+      "width": 2,
+      "chunk": 33554432
+    },
+    {
+      "path": "adapter-masked/adapter_model.safetensors",
+      "bytes": 94479552,
+      "sha256": "bea8311ac9d21c7f19491d2fb860ed8eb2853f3b93fe463aadba9ec14703a325",
+      "archive": "nllb-mergen-baglam-v1-adapter.xz",
+      "archive_bytes": 78760224,
+      "archive_sha256": "9f76c5119ef08abf0694ea6f1aab28b7e3e6d3be8245534c7c93a2165f9f45aa",
+      "width": 4,
+      "chunk": 33554432
+    }
+  ]
+}
