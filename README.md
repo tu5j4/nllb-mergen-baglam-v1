@@ -35,6 +35,8 @@ her konuşma için yalnızca o konuşmaya ait `previous_sources` ver. giriş ge�
 
 ## kapsam ve lisans
 
+yeniden dağıtıma uygun eğitim metinleri, sürüm dosyalarındaki `nllb-mergen-baglam-v1-egitim-txt.zip` içinde txt olarak bulunur. veri kapsamı ve her korpusun atıf/lisansı: [eğitim metinleri](training/README.md). bu arşiv, tüm eğitim kaynaklarının eksiksiz kopyası değildir.
+
 uyarlama ingilizce–türkçe için eğitilmiştir; diğer dillerde aynı kalite garanti edilmez. ocr bu repoya dahil değildir. gerçek ekran gecikmesi ocr, replik uzunluğu, balon sayısı ve donanıma bağlıdır.
 
 taban model: [meta ai / nllb team, nllb-200 distilled 1.3b](https://huggingface.co/facebook/nllb-200-distilled-1.3B), “no language left behind: scaling human-centered machine translation”, 2022. değişiklikler: bf16 taban kopyası, lora uyarlaması, kaynak geçmişi biçimi, güncel repliğe özel cross-attention maskesi ve başlangıç kekelemesini koruyan çıktı işlemesi.
